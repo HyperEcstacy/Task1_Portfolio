@@ -1,0 +1,114 @@
+@font-face {
+    font-family: doOmzday FV;
+    src: url(fonts/doOmzday FV.tff);
+}
+
+
+
+body{
+    background: #000;
+}
+
+
+
+p.white{color: white;
+}
+#logo{font-size:60px ;
+    font-weight:700;
+    font-style: unset;
+    font-family: doOmzday FV;
+    padding-left: 100px;
+    background-image: linear-gradient(90deg, rgb(0, 255, 255) , silver, rgb(0, 255, 255));
+    background-repeat: no-repeat;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    text-shadow: 0px 0px 10px silver;
+    animation: shine 2s ease-in-out infinite;
+    background-size: 80% 100%;
+    
+}
+#icons{
+    display: inline-block;
+    padding-left: 500px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    float: right;
+    size: 30px;
+    font-size: 25px;
+     padding-right: 100px;
+     padding-top: 20px;
+    color: white;
+    text-decoration: none;
+    
+    
+    
+    
+}
+#content{font-size: 100px;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     padding-left: 100px;
+     padding-top: 50px;
+     color: white;
+}
+
+#dude{float:right ;
+    padding-right: 100px;
+    size: 100px;
+    
+}
+h2{margin-left: 100px;
+    font-size: 32px;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 140px;
+    text-align: left;
+    color: white;
+    
+}
+#arrow{margin-left: 10px;
+    align-items: center;
+    text-align: center;
+
+}
+p.white{margin-left: 10px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    align-items: center;
+    text-align: center;
+    color: white;
+
+}
+
+@keyframes textShine {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
+
+}
+@keyframes animate {
+    0% {background-position: 0%;
+    }
+    46% {background-position: 100%;
+    }
+}
+
+ 
+
+
+
+
+
+        
+        
+
+        
+
+
+
+
+
+
